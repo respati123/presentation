@@ -17,21 +17,159 @@
 		<div class="reveal">
 			<div class="slides">
 				<section data-auto-animate>
-					<h1>Daftar Materi</h1>
-					<p data-id="index1">apa itu library component ? </p>
-					<p data-id="index2">apa itu library component ? </p>
-					<p data-id="index3">apa itu library component ? </p>
-					<p data-id="index4">apa itu library component ? </p>
+					
+					<h1 data-id="index1">Library Component<i>&#128170;</i><i>&#128170;</i></h1>
 						
 				</section>
+				<section data-background-color="aqua"  data-auto-animate>
+					<section>
+						<p style="font-size: 60px; " data-id="index1">What ?</p>
+						<div style="background-color: white; border-radius: 5px; color: black; padding: 10px;">
+							<p style="font-size: 25px; font-style: normal;">
+								Kumpulan komponen UI yang dibentuk dalam sebuah <b>package</b> yang ada akan digunakan oleh developer lain sebagai sistem desain yang lebih besar, 
+								tak hanya menggunakan, tetepi developer bisa mengembangkan.
+							</p>
+						</div>	
+					</section>
+					
+					<section data-background-color="aqua" data-auto-animate>
+						<h1 style="font-size: 60px; text-transform: capitalize;" data-id="index-manfaat">Why ?<i>&#129335;</i></h1>
+						
+					</section>
+					<section data-auto-animate>
+						<h1 style="font-size: 60px; text-transform: capitalize;" data-id="index-manfaat">Why ?<i>&#129335;</i></h1>
+						<li style="text-transform: capitalize;" class="fragment">reusable<i>&#10084;</i></li>
+						<li style="text-transform: capitalize;" class="fragment">efficient<i>&#9201;</i></li>
+						<li style="text-transform: capitalize;" class="fragment">consistency<i>&#129304;</i> </li>
+						<li style="text-transform: capitalize;" class="fragment">..and more</li>
+					</section>
+				</section>
+				<section>
+					<h1 style="font-size: 60px; text-transform: capitalize;" data-id="index-manfaat">flow create library component</h1>
+					<img src="examples/assets/example2.png"/>
+				</section>
+				<section data-background-color="white" data-auto-animate>
+					<h1 style="font-size: 60px; text-transform: capitalize;" data-id="index-manfaat">existing component libraries</h1>
+					<img style="width: 150px; height: 150px; margin: .5rem" src="examples/assets/material-ui.png"/>
+					<img style="width: 150px; height: 150px;  margin: .5rem"  src="examples/assets/ant.png"/>
+					<img style="width: 150px; height: 150px;  margin: .5rem"  src="examples/assets/semantic.png"/>
+				</section>			
 				<section data-auto-animate>
-					<p style="font-size: 60px; " data-id="index1">apa itu library component ?</p>
-					<div class="fragment fade-up" style="background-color: white; border-radius: 5px; color: black; padding: 10px;">
-						<p style="font-size: 30px; ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, consequuntur sit explicabo similique amet cum iusto nihil placeat sunt quibusdam quae? Aliquid, placeat! Voluptatibus illum perferendis quas, ex ducimus molestias.</p>
+					<h4><i>&#128129;</i>How about UT Library Component???</h4>
+					<p class="fragment">can we ?</p>
+					<p class="fragment">of course<i>&#128556;</i></p>
+
+				</section>
+				<section>
+					<h1><i>&#127752;</i>STORYBOOK<i>&#127752;</i></h1>
+					<p class="fragment">Why storybook?</p>
+				</section>
+				<section>
+					<p>Documentary Components</p>
+					<div>
+					<video style="width: auto; height: 500px;" data-autoplay src="https://storybook.js.org/cdb19b23da5e96c112ff3b8fded28a82/storybook-hero-video-optimized-lg.mp4"></video>
 					</div>
-				</section>				
-				
-				<section>Slide 2</section>
+					<a href="https://storybook.js.org/docs/react/get-started/install"><i>&#128073;</i>Storybook<i>&#128072;</i></a>
+				</section>
+				<section>
+					<p>install storybook on existing project</p>
+					<blockquote class="fragment fade-up" style="background-color: antiquewhite; color: black; border-radius: 5px;">
+						npx sb init
+					</blockquote>
+					<i class="fragment fade-up">and</i>
+					<blockquote  class="fragment fade-up" style="background-color: antiquewhite; color: black; border-radius: 5px;">
+							<p>yarn storybook</p>
+							<span style="font-size: 30px; margin: 10px">or</span>
+							<p>npm run storybook</p>
+					</blockquote>
+					<p class="fragment fade-up" style="margin-top: 50px;">
+						<i>&#127881;</i>
+						<i>&#127881;</i>
+						<i>&#127881;</i> 
+						<i style="font-size: 30px; color: red;">Yeaayyy!!! storybook template is running</i>
+						<i>&#127881;</i>
+						<i>&#127881;</i>
+						<i>&#127881;</i> 
+					</p>
+					<p class="fragment" style="font-size: 20px">more information for <a href="https://storybook.js.org/docs/react/writing-stories/introduction">create your documentary components </a></p>
+				</section>
+				<section>
+					<p>Are we done?</p>
+					<p class="fragment">Not yet!!!</>
+					<p class="fragment" style="font-size: 40px;">We need to build <b style="font-size: 70px;">components library!!</b></p>
+				</section>
+				<section>
+					<a href="https://necolas.github.io/react-native-web/">React Native Web</a>
+					<blockquote  style="background-color: antiquewhite; color: black; border-radius: 5px;">
+						$ npm i react-native-web
+					</blockquote>
+				</section>
+				<section data-background-color="white" style="font-size: 25px;">
+					<section>
+						<p>1. storybook created folder <b style="font-size: 40px;">Stories</b></p>
+						<video autoplay src="./examples/video-file.mp4"></video>
+					</section>
+					<section style="display: flex; flex-direction: column; justify-content: flex-start;">
+						<p>2. create <b>index.ts</b> if you use typescript, or <b>index.js</b> if you use javascript on <i><b>src/</b></i> </p>
+						<p>and add this code:</p>
+						<pre data-id="code-animation"><code class="hljs" ><script type="text/template">
+							export {Button} from './stories/Button';
+						</script></code></pre>
+					</section>
+					<section data-id="code-animation">
+						<p>3. modify <b>/stories/button.tsx</b> like this: </p>
+						<pre data-id="code-animation"><code class="hljs" ><script type="text/template">
+							import React from 'react';
+							import {Button} from 'react-native';
+
+							interface ButtonProps {
+								name: string;
+							}
+
+							export const ButtonCustom = (props: ButtonProps) => {
+								const {name} = props;
+								return <Button title={name} />;
+							};
+						</script></code></pre>
+
+						<p>4. modify <b>/stories/Button.stories.tsx</b> like this: </p>
+						<pre data-id="code-animation"><code class="hljs" ><script type="text/template">
+							import {ButtonCustom} from './Button';
+
+							export default {
+								title: 'Example/Button',
+								component: ButtonCustom,
+								argTypes: {
+									backgroundColor: {control: 'color'},
+								},
+							} as ComponentMeta<typeof ButtonCustom>;
+
+							const Template: ComponentStory<typeof ButtonCustom> = args => (
+								<ButtonCustom {...args} />
+							);
+
+							export const Primary = Template.bind({});
+								Primary.args = {
+								name: 'respati',
+							};
+
+						</script></code></pre>
+						<p>5. and run <pre data-id="code-animation"><code>yarn storybook</code></pre></p>
+					</section>
+					<section>
+						<p>Result:</p>
+						<img src="./examples/assets/result.png"/>
+					</section>
+				</section>
+				<section >
+					<h2>demo!!</h2>
+					<img style="width: 200px;" src="./examples/assets/demo.gif"/>
+				</section>
+				<section data-background-color="white">
+					<h1>conclusion</h1>
+					<img style="width: 400px;" src="./examples/assets/breathe.gif"/>
+				</section>
+
 			</div>
 		</div>
 
