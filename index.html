@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate>
+					<h1>Daftar Materi</h1>
+					<p data-id="index1">apa itu library component ? </p>
+					<p data-id="index2">apa itu library component ? </p>
+					<p data-id="index3">apa itu library component ? </p>
+					<p data-id="index4">apa itu library component ? </p>
+						
+				</section>
+				<section data-auto-animate>
+					<p style="font-size: 60px; " data-id="index1">apa itu library component ?</p>
+					<div class="fragment fade-up" style="background-color: white; border-radius: 5px; color: black; padding: 10px;">
+						<p style="font-size: 30px; ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, consequuntur sit explicabo similique amet cum iusto nihil placeat sunt quibusdam quae? Aliquid, placeat! Voluptatibus illum perferendis quas, ex ducimus molestias.</p>
+					</div>
+				</section>				
+				
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
